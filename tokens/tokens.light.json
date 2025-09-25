@@ -1,0 +1,18 @@
+{
+	"color": {
+		"background": {
+			"primary": { "value": "#ffffff" },
+			"secondary": { "value": "#f8fafc" },
+			"tertiary": { "value": "#f1f5f9" }
+		},
+		"text": {
+			"primary": { "value": "#0f172a" },
+			"secondary": { "value": "#475569" },
+			"tertiary": { "value": "#64748b" }
+		},
+		"border": {
+			"primary": { "value": "#e2e8f0" },
+			"secondary": { "value": "#cbd5e1" }
+		}
+	}
+}

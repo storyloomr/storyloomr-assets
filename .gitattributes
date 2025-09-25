@@ -1,0 +1,31 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Text files
+*.md text
+*.json text
+*.yml text
+*.yaml text
+*.css text
+*.js text
+*.ts text
+*.swift text
+*.xml text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.pdf binary
+*.zip binary
+
+# SVG files (treat as text for better diffs)
+*.svg text
+
+# Design token build outputs
+tokens/build/** linguist-generated=true
+
+# Exclude build artifacts from archive
+tokens/build/ export-ignore
+.DS_Store export-ignore

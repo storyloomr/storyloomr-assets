@@ -1,0 +1,33 @@
+{
+	"name": "storyloomr-assets",
+	"version": "0.1.0",
+	"description": "Storyloomr brand assets and design tokens",
+	"private": true,
+	"scripts": {
+		"build:tokens": "style-dictionary build",
+		"build:tokens:watch": "style-dictionary build --watch",
+		"clean": "rm -rf tokens/build",
+		"prebuild:tokens": "npm run clean"
+	},
+	"devDependencies": {
+		"style-dictionary": "^3.8.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/storyloomr/storyloomr-assets.git"
+	},
+	"keywords": [
+		"design-tokens",
+		"brand-assets",
+		"storyloomr"
+	],
+	"author": "Storyloomr",
+	"license": "MIT",
+	"files": [
+		"logo/**/*",
+		"icons/**/*",
+		"og/**/*",
+		"palette/**/*",
+		"tokens/build/**/*"
+	]
+}
